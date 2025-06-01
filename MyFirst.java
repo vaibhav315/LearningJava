@@ -41,16 +41,16 @@ class MyFirst
             // System.out.println(f);
             // System.out.println(c);
 
-            // int x=5,y;
-            // y=++x;
-            // System.out.println(x+" "+y);
+            int x=5,y;
+            y=++x;
+            System.out.println(x+" "+y);
 
 
-            int x=10, y=15;
-            x=x^y;
-            y=x^y;
-            x=x^y;
-            System.out.println("The values after swapping are x = " + x + " and y = " + y);
+            // int x=10, y=15;
+            // x=x^y;
+            // y=x^y;
+            // x=x^y;
+            // System.out.println("The values after swapping are x = " + x + " and y = " + y);
 
             
       
