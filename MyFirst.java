@@ -192,60 +192,60 @@ class MyFirst
 //       System.out.println("It is a invalid number.");
 // }
 
-int n ;
-Scanner sc = new Scanner(System.in);
-System.out.println("Enter the number :");
-n=sc.nextInt();
-switch (n){
-      case 1 : System.out.print("It is Monday");
-               break;
-      case 2 : System.out.println("Today is TUESDAY");
-               break;
-      case 3 : System.out.println("Today is Wednesday");
-               break;
-      case 4 : System.out.println("Today is Thursday");
-               break;
-      case 5 : System.out.println("Today is friday");
-               break;
-      case 6 : System.out.println("Today is saturday.");
-               break;
-      case 7 : System.out.println("Today is sunday.");
-               break;
-      default : System.out.println("Invalid number.");
-                break;
+// int n ;
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the number :");
+// n=sc.nextInt();
+// switch (n){
+//       case 1 : System.out.print("It is Monday");
+//                break;
+//       case 2 : System.out.println("Today is TUESDAY");
+//                break;
+//       case 3 : System.out.println("Today is Wednesday");
+//                break;
+//       case 4 : System.out.println("Today is Thursday");
+//                break;
+//       case 5 : System.out.println("Today is friday");
+//                break;
+//       case 6 : System.out.println("Today is saturday.");
+//                break;
+//       case 7 : System.out.println("Today is sunday.");
+//                break;
+//       default : System.out.println("Invalid number.");
+//                 break;
 
-}
+// }
 
-// Scanner sc=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
        
-//        System.out.println("Menu");
-//        System.out.println("====");
-//        System.out.println("ADD");
-//        System.out.println("SUB");
-//        System.out.println("MUL");
-//        System.out.println("DIV");
+       System.out.println("Menu");
+       System.out.println("====");
+       System.out.println("ADD");
+       System.out.println("SUB");
+       System.out.println("MUL");
+       System.out.println("DIV");
        
-//        System.out.println("Enter 2 Numbers");
-//        int x=sc.nextInt();
-//        int y=sc.nextInt();
-//        sc.nextLine();
-//        System.out.println("Enter Option in Words ");
-//        String option=sc.nextLine();
-//        option=option.toUpperCase();
+       System.out.println("Enter 2 Numbers");
+       int x=sc.nextInt();
+       int y=sc.nextInt();
+       sc.nextLine();
+       System.out.println("Enter Option in Words ");
+       String option=sc.nextLine();
+       option=option.toUpperCase();
        
-//        switch(option)
-//        {
-//            case "ADD": System.out.println("Sum is "+(x+y));
-//                         break;
-//            case "SUB": System.out.println("Difference is "+(x-y));
-//                         break;
-//            case "MUL": System.out.println("Product is "+(x*y));
-//                         break;
-//            case "DIV": System.out.println("Ratio is "+(x/y));
-//                         break;
-//            default:     System.out.println("Invalid Option");
-//                         break;             
-//        }
+       switch(option)
+       {
+           case "ADD": System.out.println("Sum is "+(x+y));
+                        break;
+           case "SUB": System.out.println("Difference is "+(x-y));
+                        break;
+           case "MUL": System.out.println("Product is "+(x*y));
+                        break;
+           case "DIV": System.out.println("Ratio is "+(x/y));
+                        break;
+           default:     System.out.println("Invalid Option");
+                        break;             
+       }
 
 
 
